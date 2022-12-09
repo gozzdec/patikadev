@@ -1,0 +1,7 @@
+x= [[2,5,'dog',8],[12],['box']]
+flatten_x=[]
+
+for i in x:
+    for item in i:
+        flatten_x.append(item)
+print(flatten_x)
